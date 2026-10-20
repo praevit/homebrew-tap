@@ -2,8 +2,8 @@
 # .github/workflows/homebrew.yml on every release, which fills in the
 # version and the dmg checksum.
 cask "vinter" do
-  version "0.1.7"
-  sha256 "faa811554f3c77596b5f8167f3a5833c807191334c52b28addd8a933e329c74e"
+  version "0.1.8"
+  sha256 "0198c33331131f17ee807c2b6c3aea7bcab36dc27d0c5e77401fe20fcdec4a6d"
 
   url "https://github.com/praevit/vinter/releases/download/v#{version}/Vinter_aarch64.dmg"
   name "Vinter"
